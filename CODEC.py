@@ -368,7 +368,6 @@ class StandardResBlock(nn.Module):
 
 
 class AnalysisTransform(nn.Module):
-    """分析变换 g_a (优化版)"""
 
     def __init__(self, in_channels=7, out_channels=320):
         super().__init__()
